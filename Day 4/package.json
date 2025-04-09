@@ -1,0 +1,16 @@
+{
+  "name": "day-4",
+  "version": "1.0.0",
+  "main": "app2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app2.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "backend server for react",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
