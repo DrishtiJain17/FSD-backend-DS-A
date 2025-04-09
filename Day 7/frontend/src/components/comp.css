@@ -1,0 +1,43 @@
+/* Styles only apply inside Delete.jsx */
+
+*{
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+/* Title */
+h1 {
+    color: #0f546f;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Input Field */
+input {
+    padding: 10px;
+    border: 1px solid #0f546f;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Delete Button */
+button {
+    background-color: #0f546f;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #207c93;
+}
